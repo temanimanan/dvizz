@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>ASU DVizz | Manan Temani</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/playerstats.css">
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="button">
+            <a href="/index.html">HOME</a>
+        </div>
+        <h1 align="center"><b><i>Player Stats of Australian Open Championship</i></b> (10 Years)</h1>
+        <h3>Select Year:</h3>
+        <div id="menu1" class="group"></div>
+        <h3>Select Round:</h3>
+        <div id="menu2" class="group"></div>
+        <h3>Select xAxis:</h3>
+        <div id="menu3" class="group"></div>
+        <h3>Select yAxis:</h3>
+        <div id="menu4" class="group"></div>
+        <h3>
+            <br/>Player Statistics:</h3>
+        <div id="chart" style="min-width: 300px; height: 500px; max-width: 1000px; margin: 0 auto"></div>
+    </div>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script type="text/javascript">
+        Modernizr.load({
+            test: Modernizr.svg,
+            yep: 'js/playerstats.js',
+            nope: ['js/jquery-1.9.1.min.js', 'js/fallback.js']
+        });
+    </script>
+</body>
+
+</html>

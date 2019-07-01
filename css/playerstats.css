@@ -1,0 +1,127 @@
+svg {
+	width: 900px;
+}
+
+#wrapper, body {
+	width: 1200px;
+}
+
+#menu1 {
+	margin: 20px 0 20px 0;
+}
+
+#menu1 div {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	width: 88px;
+	padding: 5px;
+	margin: 1px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+}
+
+#menu1 .selected {
+	background-color: rgb(38, 0, 255);
+}
+
+#menu2 {
+	margin: 20px 0 20px 0;
+}
+
+#menu2 div {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	width: 88px;
+	padding: 5px;
+	margin: 1px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+}
+
+#menu2 .selected {
+	background-color: rgb(38, 0, 255);
+}
+
+#menu3 {
+	margin: 20px 0 20px 0;
+}
+
+#menu3 div {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	width: 100px;
+	padding: 5px;
+	margin: 1px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+}
+
+#menu3 .selected {
+	background-color: rgb(38, 0, 255);
+}
+
+#menu4 {
+	margin: 20px 0 20px 0;
+}
+
+#menu4 div {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	width: 100px;
+	padding: 5px;
+	margin: 1px;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+}
+
+#menu4 .selected {
+	background-color: rgb(38, 0, 255);
+}
+
+#title {
+	position: absolute;
+	left: 910px;
+	top: 40px;
+	width: 280px;
+}
+
+#title .desc {
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: 300;
+	color: #666;
+}
+
+g.axis path, g.axis line {
+	stroke: #ccc;
+	fill: none;
+	shape-rendering: crispEdges;
+}
+
+g.axis text {
+	font-size: 11px;
+}
+
+text {
+	font-weight: 300;
+	font-size: 12px;
+	fill: #666;	
+}
+
+g.player text {
+	display: none;
+	font-size: 10px;
+}
+
+g.player.hover text, g.player.show text {
+	display: block;
+}
+
+g.player circle {
+	fill: #225D23;
+	cursor: pointer;
+}

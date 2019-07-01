@@ -1,0 +1,50 @@
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	width: 1120px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+#wrapper {
+	position: relative;
+}
+
+#homepage {
+	text-align: center;
+	position: relative;
+	margin: 200px 0 20px 0;
+}
+
+#button {
+	margin: 20px 0 20px 0;
+	color: white;
+}
+
+#button a:link {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#button a:visited {
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+#button a:hover {
+	background-color: rgb(38, 0, 255);
+	color: white;
+}
+
+#title {
+	font-size: 36px;
+	font-weight: 100;
+}
